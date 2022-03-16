@@ -69,4 +69,4 @@ clean:
 	rm -f $(CUDA_OBJS)
 
 run:
-	LD_LIBRARY_PATH=$(LD_LIBRARY_PATH) $(RUNDIR)/$(PROJ) -s -i ./img/Engine_in.PNG -o ./img/Engine_out.PNG
+	LD_LIBRARY_PATH=$(LD_LIBRARY_PATH) $(RUNDIR)/$(PROJ) -s -i ./img/4k_in.jpg -o ./img/out_img.jpg
